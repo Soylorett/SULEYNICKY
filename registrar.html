@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CRUD REGISTRAR</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/estilos.css">
+</head>
+<body>
+    <div class="container">
+        <div class="text-center">
+            <img src="https://img.freepik.com/vector-premium/estilo-dibujos-animados-lindo-leon-dibujado-mano_42349-395.jpg?w=2000" class="mt-5" width="150px" alt="">
+            <h3 class="mt-2">REGISTRO SISTEMA</h3>
+            <form id="formRegistrar">
+                <div class="mb-3">
+                    <label for="correo" class="form-label">CORREO ELECTRONICO</label>
+                    <input type="email" class="form-control" id="correo" placeholder="nicky@example.com">
+                </div>
+                <div class="mb-3">
+                    <label for="password" class="form-label">CONTRASENA</label>
+                    <input type="password" class="form-control" id="password" placeholder="Pasaword">
+                </div>
+                <div class="mb-3">
+                    <label for="nombre" class="form-label">NOMBRE</label>
+                    <input type="text" class="form-control" id="nombre" placeholder="Nombre">
+                </div>
+                <div class="mb-3">
+                    <input type="button" class="btn btn-danger form-control" href="inicio.html" onclick="registrarUsuario()" value="REGISTRAR">
+                </div>
+                <div class="mb-3">
+                    <a href="index.html" class="btn btn-primary form-control">INICIAR SESION</a> 
+                </div>
+            </form>
+        </div>
+    </div>
+    
+<script src="js/appLogin.js"></script>
+<script src="js/funciones.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/sweetalert2.all.min.js"></script>
+</body>
+</html>

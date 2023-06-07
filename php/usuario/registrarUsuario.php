@@ -18,7 +18,7 @@ if($_POST){
             $valido['successe']=true;
             $valido['mensaje']="SE GUARDO CORRECTAMENTE";
             
-         
+        
         }else{
             $valido['successe']=false;
             $valido['mensaje']="ERROR: NO SE GUARDO";
